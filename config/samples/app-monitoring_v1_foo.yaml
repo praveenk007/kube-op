@@ -1,0 +1,12 @@
+apiVersion: app-monitoring.praveenk007.io/v1
+kind: Foo
+metadata:
+  labels:
+    app.kubernetes.io/name: foo
+    app.kubernetes.io/instance: foo-sample
+    app.kubernetes.io/part-of: kube-op
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: kube-op
+  name: foo-sample
+spec:
+  # TODO(user): Add fields here
